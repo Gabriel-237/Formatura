@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tainá & Gabriel | Formatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <span class="sparkle s1">✦</span>
+    <span class="sparkle s2">✧</span>
+    <span class="sparkle s3">✦</span>
+    <span class="sparkle s4">✧</span>
+
+    <main class="container">
+
+        <div class="ribbon"></div>
+
+        <header>
+            <p class="eyebrow">Um momento para guardar no coração</p>
+
+            <div class="caps">
+                🎓 🎀 🎓
+            </div>
+
+            <p class="eyebrow">
+                Você está convidado(a) para celebrar conosco
+            </p>
+
+            <h1>Tainá Menezes</h1>
+            <span class="and">e</span>
+            <h1 class="blue">Gabriel Damasceno</h1>
+
+            <div class="forming">FORMANDOS</div>
+
+            <p class="intro">
+                Será uma grande alegria ter você conosco
+                nesse momento tão especial das nossas vidas!
+            </p>
+            <img
+                src="convite-base.jpg"
+                alt="Convite de formatura"
+                class="invitation"
+            >
+        </header>
+
+        <section class="details">
+
+            <div class="detail">
+                <span>♡</span>
+                <strong>19.12.2026</strong>
+                <small>Data</small>
+            </div>
+
+            <div class="detail">
+                <span>◷</span>
+                <strong>12:00</strong>
+                <small>Horário</small>
+            </div>
+
+            <div class="detail">
+                <span>⌖</span>
+                <strong>Life III</strong>
+                <small>Sussuarana</small>
+            </div>
+
+        </section>
+
+        <section class="location">
+
+            <h2>Como chegar?</h2>
+
+            <p>
+                Condomínio Life III – Sussuarana<br>
+                Salvador – Bahia
+            </p>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Condom%C3%ADnio%20Life%20III%20Sussuarana%20Salvador%20BA"
+                target="_blank"
+                class="map-button"
+            >
+                📍 Abrir Google Maps
+            </a>
+
+        </section>
+
+        <section class="rsvp">
+
+            <h2>Confirme sua presença</h2>
+
+            <p>
+                Sua presença vai deixar esse dia ainda
+                mais especial!
+            </p>
+
+            <form id="rsvpForm">
+
+                <label for="guestName">Seu nome:</label>
+
+                <input
+                    type="text"
+                    id="guestName"
+                    placeholder="Digite seu nome completo"
+                    required
+                >
+
+                <label for="attendance">
+                    Você vai comparecer?
+                </label>
+
+                <select id="attendance" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="Sim, estarei presente!">
+                        Sim, estarei presente!
+                    </option>
+                    <option value="Não poderei comparecer">
+                        Não poderei comparecer
+                    </option>
+                </select>
+
+                <button type="submit">
+                    Confirmar presença ✨
+                </button>
+
+            </form>
+
+            <div id="notice"></div>
+
+        </section>
+
+        <footer>
+            🎀 Contamos com a sua presença!
+        </footer>
+
+        <div class="ribbon"></div>
+
+    </main>
+
+    <!-- Biblioteca oficial do Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
